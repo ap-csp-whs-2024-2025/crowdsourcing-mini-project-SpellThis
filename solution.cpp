@@ -12,6 +12,12 @@
 #include <vector>    // std::vector
 
 int main()
-{
+(
+
+  list<string> Song Title = { "Let it go", "Crazy", "Flatline", "Move along", "Stay" };
+  list<string> Artist Names = {"Idina Menzel", "LE SSERAFIRM", "Justin Bieber", "The All american rejects", "Rihanna" };
+  list<int> Secs = {"223", "100", "219", "262", "247"}
+
+
   return 0;
 }
