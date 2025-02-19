@@ -13,10 +13,14 @@
 
 int main()
 (
-
   list<string> Song Title = { "Let it go", "Crazy", "Flatline", "Move along", "Stay" };
   list<string> Artist Names = {"Idina Menzel", "LE SSERAFIRM", "Justin Bieber", "The All american rejects", "Rihanna" };
-  list<int> Secs = {"223", "100", "219", "262", "247"}
+  list<int> Secs = {"223", "100", "219", "262", "247"};
+
+display= Title[2], Names[2], Secs[2];
+
+std::string choise = "y";
+while (choise != "n")
 
 
   return 0;
